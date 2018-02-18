@@ -1,0 +1,11 @@
+body {
+    background-image: url("tempBackground.jpg");
+    color: #fff;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+footer > p {
+    color: lightgray;
+    text-align: right;   
+}
