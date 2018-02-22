@@ -1,11 +1,83 @@
+html {margin: 0;}
+
 body {
-    background-image: url("tempBackground.jpg");
-    color: #fff;
     text-align: center;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Slabo 27px', serif;
 }
 
-footer > p {
-    color: lightgray;
-    text-align: right;   
+li {font-size: 16px;}
+
+p {font-size: 16px;}
+
+.mainColor {background-color: #0055a5;}
+
+.whiteText {color: #FFF;}
+
+header {
+    margin-top: -20px;
+    margin-left: -15px;
+    width: 102.5%;
+    padding: 0; 
 }
+
+header > h1,h2 {padding: 0px 10px;}
+
+header > h1 > a, h1 > a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header > h2 {padding-bottom: 10px;}
+
+.left {text-align: left;}
+
+.row {margin-top: -10px;}
+
+a:hover {
+    color: #000;
+    text-decoration-style: dotted;
+}
+
+a {
+    text-decoration: none;
+}
+
+.itemBorder {border: 4px ridge #00AA6E; height: 100%}
+
+h2.underline {text-decoration-line: underline;}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.item > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+}
+
+.addInfo {margin: 10px;}
+
+
+
+footer {
+    width: 100%;
+    color: rgb(153, 153, 153);
+    height: 100%;
+}
+
+.contact{
+    background-color: #0055a5;
+    border: #00AA6E solid 1px;
+    height: 40px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+footer > p {text-align: right;}
+
+
+
